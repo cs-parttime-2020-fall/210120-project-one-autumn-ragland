@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     margin: 2%;
-    /* background-color: #dcf2ff; */
 }
 
 #container {
@@ -11,7 +10,6 @@ body {
 #container > div {
     padding : 1%;
     margin : 2%;
-    /* border : 1px solid black; */
 }
 
 #taskForm {

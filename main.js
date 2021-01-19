@@ -52,4 +52,5 @@ submitForm = (event) => {
     taskDue.value = "";
 }
 
+// add event listener to form submission
 submitBtn.addEventListener("click", submitForm);
