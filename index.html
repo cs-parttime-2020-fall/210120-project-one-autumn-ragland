@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>21 02 19 JS DOM Events Primary</h1>
+    <div class = "gridContainer">
+        <div id = "rsvpForm">
+            <h3>RSVP Below</h3>
+            <form>
+                <div>
+                    <label for="guestName">Guest Name</label>
+                    <input type="text" id="guestName">
+                </div>
+                <div>
+                    <label for="guestEmail">Guest Email</label>
+                    <input type="email" id="guestEmail">
+                </div>
+                <div>
+                    <input type="checkbox" id="isGuestAttending">
+                    <label for="isGuestAttending">Is Guest Attending</label>
+                </div>
+                <button id = "submitBtn">Respond</button>
+            </form>
+        </div>
+        <div>
+            <h3>Accepted Invitations</h3>
+            <div id = "acceptedList">
+
+            </div>
+            <button hidden id = "clearAccepted">Clear</button>
+        </div>
+        <div>
+            <h3>Declined Invitations</h3>
+            <div id = "declinedList">
+
+            </div>
+            <button hidden id = "clearDeclined">Clear</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
