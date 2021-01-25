@@ -27,6 +27,17 @@ When a task is added via the form the description and due date should be added t
 
 *List the requirements/steps here based on the content section above. Include as many detailed/specific items as you feel is necessary*
 
+- Create three elements/placeholders in grid display
+- Create form with correct fields
+- Select form fields, form submission button, and lists(2)
+- Clear form fields when submitted
+- Determine if a form submission is an urgent or non-urgent task when submitted
+- Add task to correct list when submitted
+- Add click event listener to all tasks, must update when a new task is submitted
+- Hide task when clicked
+
 ### Site URL
 
 *Add the deployed project URL after walking through the hosting steps in class*
+
+https://cs-parttime-2020-fall.github.io/210120-project-one-autumn-ragland/

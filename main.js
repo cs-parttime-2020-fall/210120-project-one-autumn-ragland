@@ -21,7 +21,7 @@ hideTask = (event) => {
 
 
 submitForm = (event) => {
-    event.preventDefault(); // stop form from reloading
+    event.preventDefault(); // stop page from reloading
 
     // // check field values
     // console.log(taskDescription.value);
@@ -48,7 +48,7 @@ submitForm = (event) => {
 
     // clear form fields
     taskDescription.value = "";
-    taskUrgency.value = "---";
+    taskUrgency.value = "";
     taskDue.value = "";
 }
 
